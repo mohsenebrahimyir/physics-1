@@ -30,7 +30,7 @@
   
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="مدل-سازی-در-فیزیک.html"/>
-<link rel="next" href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"/>
+<link rel="next" href="چگالی.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -57,8 +57,17 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300&display=swap">
 
+
+
+<script type="text/javascript">
+// add cancel package
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancel']}}
+};
+</script>
 
 
 
@@ -109,19 +118,21 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="1.1" data-path="فیزیک-دانش-بنیادی.html"><a href="فیزیک-دانش-بنیادی.html"><i class="fa fa-check"></i><b>1.1</b> فیزیک: دانش بنیادی</a></li>
 <li class="chapter" data-level="1.2" data-path="مدل-سازی-در-فیزیک.html"><a href="مدل-سازی-در-فیزیک.html"><i class="fa fa-check"></i><b>1.2</b> مدل سازی در فیزیک</a></li>
-<li class="chapter" data-level="1.3" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html"><i class="fa fa-check"></i><b>1.3</b> اندازه گیری و کمیت های فیزیکی</a></li>
-<li class="chapter" data-level="1.4" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><i class="fa fa-check"></i><b>1.4</b> اندازه گیری و دستگاه بین المللی یکاها</a>
+<li class="chapter" data-level="1.3" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html"><i class="fa fa-check"></i><b>1.3</b> اندازه گیری و کمیت های فیزیکی</a>
 <ul>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#طول"><i class="fa fa-check"></i>طول</a></li>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#جرم"><i class="fa fa-check"></i>جرم</a></li>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#زمان"><i class="fa fa-check"></i>زمان</a></li>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#تبدیل-یکاها"><i class="fa fa-check"></i>تبدیل یکاها</a></li>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#پیشوندهای-یکاها"><i class="fa fa-check"></i>پیشوندهای یکاها</a></li>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#سازگاری-یکاها"><i class="fa fa-check"></i>سازگاری یکاها</a></li>
-<li class="chapter" data-level="" data-path="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html"><a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html#نماد-گذاری-علمی"><i class="fa fa-check"></i>نماد گذاری علمی</a></li>
+<li class="chapter" data-level="1.3.1" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#دستگاه-بین-المللی-یکاها"><i class="fa fa-check"></i><b>1.3.1</b> دستگاه بین المللی یکاها</a></li>
+<li class="chapter" data-level="1.3.2" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#سازگاری-یکاها"><i class="fa fa-check"></i><b>1.3.2</b> سازگاری یکاها</a></li>
+<li class="chapter" data-level="1.3.3" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#پیشوندهای-یکاها"><i class="fa fa-check"></i><b>1.3.3</b> پیشوندهای یکاها</a></li>
+<li class="chapter" data-level="1.3.4" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#تبدیل-یکاها"><i class="fa fa-check"></i><b>1.3.4</b> تبدیل یکاها</a></li>
+<li class="chapter" data-level="1.3.5" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#نماد-گذاری-علمی"><i class="fa fa-check"></i><b>1.3.5</b> نماد گذاری علمی</a></li>
+<li class="chapter" data-level="1.3.6" data-path="اندازه-گیری-و-کمیت-های-فیزیکی.html"><a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#خطا-و-دقت-اندازه-گیری"><i class="fa fa-check"></i><b>1.3.6</b> خطا و دقت اندازه گیری</a></li>
 </ul></li>
-<li class="chapter" data-level="1.5" data-path="اندازه-گیری-و-دقت-وسیله-های-اندازه-گیری.html"><a href="اندازه-گیری-و-دقت-وسیله-های-اندازه-گیری.html"><i class="fa fa-check"></i><b>1.5</b> اندازه گیری و دقت وسیله های اندازه گیری</a></li>
-<li class="chapter" data-level="1.6" data-path="چگالی.html"><a href="چگالی.html"><i class="fa fa-check"></i><b>1.6</b> چگالی</a></li>
+<li class="chapter" data-level="1.4" data-path="چگالی.html"><a href="چگالی.html"><i class="fa fa-check"></i><b>1.4</b> چگالی</a></li>
+<li class="chapter" data-level="" data-path="تشریحی-فصل-اول.html"><a href="تشریحی-فصل-اول.html"><i class="fa fa-check"></i>تشریحی فصل اول</a></li>
+<li class="chapter" data-level="" data-path="تستی-فصل-اول.html"><a href="تستی-فصل-اول.html"><i class="fa fa-check"></i>تستی فصل اول</a>
+<ul>
+<li class="chapter" data-level="" data-path="تستی-فصل-اول.html"><a href="تستی-فصل-اول.html#چگالی-1"><i class="fa fa-check"></i>چگالی</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="ویژگی-های-فیزیکی-مواد.html"><a href="ویژگی-های-فیزیکی-مواد.html"><i class="fa fa-check"></i><b>2</b> ویژگی های فیزیکی مواد</a>
 <ul>
@@ -181,30 +192,1170 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="اندازه-گیری-و-کمیت-های-فیزیکی" class="section level2 hasAnchor" number="1.3">
 <h2><span class="header-section-number">1.3</span> اندازه گیری و کمیت های فیزیکی<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#اندازه-گیری-و-کمیت-های-فیزیکی" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>نمایش کمیت‌های نرده‌ای:</p>
+<p>نمایش کمیت‌های نرده‌ای، عددی یا اسکالر:</p>
 <ul>
-<li><p>طول:
-<span class="math inline">\(l = 168 cm\)</span></p></li>
-<li><p>جرم:
-<span class="math inline">\(m = 65 kg\)</span></p></li>
+<li>جرم: <span class="math inline">\(m = 65 kg\)</span></li>
+<li>زمان: <span class="math inline">\(t = 39 s\)</span></li>
+<li>طول: <span class="math inline">\(l = 168 cm\)</span></li>
+<li>مسافت طی شده: <span class="math inline">\(\Delta l = 20 m\)</span></li>
+<li>تندی: <span class="math inline">\(\Delta s = 30 \frac{m}{s}\)</span></li>
 </ul>
 <p>نمایش کمیت‌های برداری:</p>
 <ul>
-<li><p>مکان
-<span class="math inline">\(\vec{x} = -5 cm\)</span></p></li>
-<li><p>وزن:
-<span class="math inline">\(\vec{F} = 650 N\)</span></p></li>
+<li>مکان: <span class="math inline">\(\vec{x} = 5 cm\vec{i}\)</span></li>
+<li>جابجایی: <span class="math inline">\(\Delta\vec{x} = - 24 \frac{m}{s}\vec{i}\)</span></li>
+<li>سرعت: <span class="math inline">\(\vec{v} = 6 \frac{m}{s}\vec{j}\)</span></li>
+<li>وزن: <span class="math inline">\(\vec{F} = 23 N \vec{i} + 60 N \vec{j}\)</span></li>
 </ul>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-10"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-14"></span>
 <img src="img/chap-1/phy-1-chap-1-fig-5.png" alt="
 هر کمیت نرده‌ای را باید با عدد و یکای مناسب آن بیان کنیم.
 هر کمیت برداری را باید با عدد، یکای مناسب و جهت آن بیان کنیم.
 " width="80%" />
 <p class="caption">
-شکل 1.4: 
+شکل 1.6: 
 هر کمیت نرده‌ای را باید با عدد و یکای مناسب آن بیان کنیم.
 هر کمیت برداری را باید با عدد، یکای مناسب و جهت آن بیان کنیم.
 </p>
+</div>
+<div id="دستگاه-بین-المللی-یکاها" class="section level3 hasAnchor" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> دستگاه بین المللی یکاها<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#دستگاه-بین-المللی-یکاها" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="example">
+<p><span id="exm:unlabeled-div-4" class="example"><strong>مثال 1.1  </strong></span>اگر یکای طول را به صورت فاصله نوک بینی تا نوک انگشتان دست کشیده شده
+بگیریم، چه مزایا و چه معایبی دارد؟
+(پرسش متن کتاب تجربی-ریاضی)</p>
+<details>
+<summary>
+<strong>نمایش پاسخ</strong>
+</summary>
+<ul>
+<li>مزایا: در دسترس بودن</li>
+<li>معایب: متفاوت بین افراد مختلف</li>
+</ul>
+</details>
+</div>
+<table class=" lightable-classic table table-striped table-hover table-condensed table-responsive" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto; font-family: IRANSans; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-15">جدول 1.1: </span>کمیت های اصلی و یکای آنها در دستگاه متریک بین المللی (SI)
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+کمیت
+</th>
+<th style="text-align:center;">
+نام یکا
+</th>
+<th style="text-align:center;">
+نماد یکا
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+طول
+</td>
+<td style="text-align:center;">
+متر
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(m\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+جرم
+</td>
+<td style="text-align:center;">
+کیلوگرم
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(kg\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+زمان
+</td>
+<td style="text-align:center;">
+ثانیه
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(s\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+دما
+</td>
+<td style="text-align:center;">
+کِلوین
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(K\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+مقدار ماده
+</td>
+<td style="text-align:center;">
+مُول
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(mol\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+جریان الکتریکی
+</td>
+<td style="text-align:center;">
+آمپر
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(A\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+شدت روشنایی
+</td>
+<td style="text-align:center;">
+کَندِلا (شمع)
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(cd\)</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="definition">
+<p><span id="def:unlabeled-div-5" class="definition"><strong>تعریف 1.2  </strong></span>یکاهای اصلی یکاهایی هستند که:</p>
+<ul>
+<li>تعریف مستقل</li>
+<li>دسترس پذیری</li>
+<li>غیر قابل تغییر</li>
+<li>قابلیت باز تولید</li>
+</ul>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-6" class="definition"><strong>تعریف 1.3  </strong></span>کمیت فرعی از روی کمیت اصلی تعریف می‌شود.</p>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-7" class="definition"><strong>تعریف 1.4  </strong></span>یکای طول
+(متر یا m)</p>
+<ul>
+<li>یک ده میلیونیم فاصله استوا تا قطب شمال</li>
+<li>فاصله میان دو خط حک شده در نزدیکی دو سر میله‌ای از جنس پلاتین-ایریدیوم،
+در دمای صفر درجه سلسیوس</li>
+<li>مسافت طی شده نور در در مدت زمان
+<span class="math inline">\(\frac{1}{299792458}\)</span> ثانیه در خلاء</li>
+</ul>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-8" class="definition"><strong>تعریف 1.5  </strong></span>یکای جرم
+(کیلوگرم یا kg)،</p>
+<ul>
+<li>جرم استوانه‌ای فلزی از جنس آلیاژ پلاتین-ایریدیوم</li>
+</ul>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-9" class="definition"><strong>تعریف 1.6  </strong></span>یکای زمان
+(ثانیه یا s)</p>
+<ul>
+<li><span class="math inline">\(\frac{1}{86400}\)</span> میانگین روز خورشیدی</li>
+</ul>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-10" class="definition"><strong>تعریف 1.7  </strong></span>به اندازه‌گیری مدت زمان بین شروع
+و پایان یک رویداد
+<strong>بازه زمانی</strong>
+گویند.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\overset{\overset{\large Delta}{\uparrow}}{\Delta} t
+  &amp; =
+    \overset{\overset{\large final}{\uparrow}}{t_{f}}
+    - \overset{\overset{initial}{\uparrow}}{t_{i}} \\
+  &amp; = t&#39; - t \\
+  &amp; = t&#39;&#39; - t&#39; \\
+  &amp; = t_{2} - t_{1} \\
+  &amp; = t - t_{0} \\
+\overset{\text{if } t_{0} = 0}{\Longrightarrow}
+\Delta t
+  &amp; = t
+\end{aligned}
+\]</span></p>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-11" class="definition"><strong>تعریف 1.8  </strong></span>در فیزیک، تغییر هر کمیت را نسبت به زمان،
+(<span class="math inline">\(\cfrac{\Delta x}{\Delta t}\)</span>)
+را آهنگ آن کمیت می‌نامیم.</p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-12" class="remark"><em>نکته</em>. </span><span class="math inline">\((\prime)\)</span> پرایم - <span class="math inline">\((\prime\prime)\)</span> سکوند یا زگوند</p>
+</div>
+<table class=" lightable-classic table table-striped table-hover table-condensed table-responsive" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto; font-family: IRANSans; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-16">جدول 1.2: </span>کمیت های فرعی و یکای آنها
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+نام کمیت
+</th>
+<th style="text-align:center;">
+نماد کمیت
+</th>
+<th style="text-align:center;">
+نام یکا
+</th>
+<th style="text-align:center;">
+یکای SI
+</th>
+<th style="text-align:center;">
+یکای فرعی
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+سرعت
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(v\)</span>
+</td>
+<td style="text-align:center;">
+متر بر ثانیه
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{m}{s}\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{m}{s}\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+شتاب
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(a\)</span>
+</td>
+<td style="text-align:center;">
+متر بر مجذور ثانیه
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{m}{s^2}\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{m}{s^2}\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+نیرو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(F\)</span>
+</td>
+<td style="text-align:center;">
+نیوتن
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(N\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{kg.m}{s^2}\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+فشار
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(P\)</span>
+</td>
+<td style="text-align:center;">
+پاسکال
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(Pa\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{kg}{m.s^2}\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+انرژی، گرما، کار
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(E, Q, W\)</span>
+</td>
+<td style="text-align:center;">
+ژول
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(J\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{kg.m^2}{s^2}\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+توان
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(P\)</span>
+</td>
+<td style="text-align:center;">
+وات
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(W\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{kg.m^2}{s^{3}}\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+گرمای ویژه
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(C\)</span>
+</td>
+<td style="text-align:center;">
+ژول در کلوین بر کیلوگرم
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{J}{kg.K}\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\frac{m^2}{s^{2}.K}\)</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="example">
+<p><span id="exm:unlabeled-div-13" class="example"><strong>مثال 1.2  </strong></span>یکای کمیت‌های فرعی بالا را با یکای کمیت‌های اصلی بیان کنید.</p>
+<details>
+<summary>
+<strong>نمایش پاسخ</strong>
+</summary>
+<p>اینارو میشه خیلی راحت از روی فرمولاشون با یکای اصلی نوشت.</p>
+<span class="math display">\[
+\require{cancel}
+\begin{aligned}
+\overset{\overset{N}{\uparrow}}{F}
+  &amp; = \overset{\overset{kg}{\uparrow}}{m}
+      \overset{\overset{\frac{m}{s^{2}}}{\uparrow}}{a}
+    &amp; \Rightarrow N &amp; = \cfrac{kg.m}{s^{2}} \\
+\overset{\overset{Pa}{\uparrow}}{P }
+  &amp; = \cfrac{\overset{\overset{\frac{kg.m}{s^{2}}}{\uparrow}}{F}}{
+      \underset{\underset{m^2}{\downarrow}}{A}}
+    &amp; \Rightarrow Pa &amp; = \cfrac{kg}{s^{2}m} \\
+\overset{\overset{J}{\uparrow}}{Q,W}
+    &amp; = \overset{\overset{\frac{kg.m}{s^{2}}}{\uparrow}}{F}
+      \overset{\overset{m}{\uparrow}}{d}
+    &amp;\Rightarrow J &amp; = \cfrac{kg.m^2}{s^{2}} \\
+\overset{\overset{W}{\uparrow}}{P}
+  &amp; = \cfrac{
+        \overset{\overset{\frac{kg.m^2}{s^{2}}}{\uparrow}}{W}}{
+        \underset{\underset{s}{\downarrow}}{t}
+        }
+      &amp; \Rightarrow W &amp; = \cfrac{kg.m^2}{s^{3}} \\
+\overset{\overset{\frac{J.K}{kg}}{\uparrow}}{C}
+  &amp; = \cfrac{
+        \overset{\overset{\frac{kg.m^2}{s^{2}}}{\uparrow}}{Q}}{
+        \underset{\underset{kg}{\downarrow}}{m}
+        \underset{\underset{K}{\downarrow}}{\Delta \theta}
+      }
+    &amp; \Rightarrow \frac{J}{kg.K} &amp; = \cfrac{m^2}{s^{2}.K}
+\end{aligned}
+\]</span>
+</details>
+</div>
+</div>
+<div id="سازگاری-یکاها" class="section level3 hasAnchor" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> سازگاری یکاها<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#سازگاری-یکاها" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="remark">
+<p><span id="unlabeled-div-14" class="remark"><em>نکته</em>. </span>در دو طرف هر معادله‌ای باید یکاها با هم سازگار باشند.</p>
+</div>
+</div>
+<div id="پیشوندهای-یکاها" class="section level3 hasAnchor" number="1.3.3">
+<h3><span class="header-section-number">1.3.3</span> پیشوندهای یکاها<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#پیشوندهای-یکاها" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<table class=" lightable-classic table table-striped table-hover table-condensed table-responsive" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto; font-family: IRANSans; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-17">جدول 1.3: </span>پیشوندهای یکاها
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+مقیاس
+</th>
+<th style="text-align:center;">
+نماد
+</th>
+<th style="text-align:center;">
+پیشوند
+</th>
+<th style="text-align:center;">
+توان ۱۰
+</th>
+<th style="text-align:center;">
+مهم
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000000000000000000000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(y\)</span>
+</td>
+<td style="text-align:center;">
+یوکتو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-24\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000000000000000000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(z\)</span>
+</td>
+<td style="text-align:center;">
+زِپتو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-21\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000000000000000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(a\)</span>
+</td>
+<td style="text-align:center;">
+اَتو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-18\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000000000000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(f\)</span>
+</td>
+<td style="text-align:center;">
+فِمتو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-15\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000000000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(p\)</span>
+</td>
+<td style="text-align:center;">
+پیکو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-12\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(n\)</span>
+</td>
+<td style="text-align:center;">
+نانو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-9\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.000001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\mu\)</span>
+</td>
+<td style="text-align:center;">
+میکرو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-6\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.001\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(m\)</span>
+</td>
+<td style="text-align:center;">
+میلی
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-3\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.01\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(c\)</span>
+</td>
+<td style="text-align:center;">
+سانتی
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-2\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(0.1\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(d\)</span>
+</td>
+<td style="text-align:center;">
+دِسی
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-1\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(10\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(da\)</span>
+</td>
+<td style="text-align:center;">
+دِکا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(1\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(100\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(h\)</span>
+</td>
+<td style="text-align:center;">
+هِکتو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(2\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(k\)</span>
+</td>
+<td style="text-align:center;">
+کیلو
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(3\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(M\)</span>
+</td>
+<td style="text-align:center;">
+مِگا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(6\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(G\)</span>
+</td>
+<td style="text-align:center;">
+گیگا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(9\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(T\)</span>
+</td>
+<td style="text-align:center;">
+تِرا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(12\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000000000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(P\)</span>
+</td>
+<td style="text-align:center;">
+پِتا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(15\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000000000000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(E\)</span>
+</td>
+<td style="text-align:center;">
+اِگزا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(18\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000000000000000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(Z\)</span>
+</td>
+<td style="text-align:center;">
+زِتا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(21\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span class="math inline">\(1000000000000000000000000\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(Y\)</span>
+</td>
+<td style="text-align:center;">
+یوتا
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(24\)</span>
+</td>
+<td style="text-align:center;">
+<span class="math inline">\(-\)</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="تبدیل-یکاها" class="section level3 hasAnchor" number="1.3.4">
+<h3><span class="header-section-number">1.3.4</span> تبدیل یکاها<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#تبدیل-یکاها" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="lemma">
+<p><span id="lem:unlabeled-div-15" class="lemma"><strong>روش 1.1  </strong></span>تبدیل زنجیره‌ای
+(تشریحی):
+ضریب تبدیل یکاها را به صورت زنجیره‌ای درهم ضرب و ساده سازی می‌کنیم.</p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-16" class="example"><strong>مثال 1.3  </strong></span>هر سانتی متر چند کیلو متر است؟</p>
+<p><span class="math display">\[
+\require{cancel}
+\begin{cases}
+  (*) &amp; 1  = \cfrac{1 cm}{10^{-2} m} = \cfrac{10^{-2} m}{1 cm} \\
+  (**) &amp; 1 = \cfrac{1 km}{10^{3} m} = \cfrac{10^{3} m}{1 km}
+\end{cases} \\
+\begin{aligned}
+1cm &amp; = ? km \\
+  &amp; = 1 cm \times 1 \times 1 \\
+  &amp; \overset{(*), (**)}{{=}} 1 \cancel{cm}
+    \times \cfrac{10^{-2} \bcancel{m}}{1 \cancel{cm}}
+    \times \cfrac{1 km}{10^{3} \bcancel{m}} \\
+  &amp; = 10^{-2} \times 10^{-3} km \\
+  &amp; = 10^{-2-3} km \\
+  &amp; = 10^{-5}km
+\end{aligned}
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-17" class="example"><strong>مثال 1.4  </strong></span>تبدیل یکای کمیت سرعت برحسب
+<span class="math inline">\(\frac{km}{h}\)</span>
+به یکای
+<span class="math inline">\(\frac{m}{s}\)</span>:</p>
+<p><span class="math display">\[
+\require{cancel}
+\begin{aligned}
+1 \frac{km}{h} &amp; = ? \frac{m}{s} \\
+  &amp; = 1 \frac{km}{h} \times 1 \times 1 \\
+  &amp; = 1 \frac{\cancel{km}}{\bcancel{h}}
+    \times \frac{1 \bcancel{h}}{3600s}
+    \times \frac{1000m}{1 \cancel{km}} \\
+  &amp; = \cfrac{1000}{3600} \times \frac{m}{s} \\
+  &amp; = \cfrac{1}{3.6} \frac{m}{s} \\
+  &amp; \Rightarrow \boxed{3.6 \cfrac{km}{h} = 1 \frac{m}{s}}
+\end{aligned}
+\]</span></p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-18" class="remark"><em>نکته</em>. </span>ضریب تبدیل‌های مهم</p>
+<p><span class="math display">\[
+\begin{aligned}
+1 cm^3 &amp; = 1 cc \\
+1 L &amp; = 1 dm^{3} = 10^{3} cm^{3} = 10^{3} cc \\
+1 m^3 &amp; = 10^{3} L = 10^6 cm^3 = 10^6 cc \\
+1 kg &amp; = 10^{3} gr \\
+1 h &amp; = 60 m = 3600 s \\
+1 \cfrac{g}{L} &amp; = 1 \cfrac{g}{dm^3} = 1 \cfrac{kg}{m^3} \\
+1 \cfrac{g}{cm^3} &amp; = 10^{3} \cfrac{kg}{m^3} \\
+1 \frac{m}{s} &amp; = 3.6 \cfrac{km}{h} \\
+\end{aligned} \\
+\]</span>
+<span class="math inline">\(= 10^{4} m^2 = hm^2\)</span> هکتار</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-19"></span>
+<img src="img/chap-1/phy-1-chap-1-fig-tank-battle.png" alt="$1m^{3}=1000L=1000000cc$" width="80%" />
+<p class="caption">
+شکل 1.7: <span class="math inline">\(1m^{3}=1000L=1000000cc\)</span>
+</p>
+</div>
+</div>
+<div id="نماد-گذاری-علمی" class="section level3 hasAnchor" number="1.3.5">
+<h3><span class="header-section-number">1.3.5</span> نماد گذاری علمی<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#نماد-گذاری-علمی" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="definition">
+<p><span id="def:unlabeled-div-19" class="definition"><strong>تعریف 1.9  </strong></span>نحوه نگارش اعداد به صورت نماد علمی:</p>
+<p><span class="math display">\[x = m \times 10^n, \quad (1 \leq m &lt; 10)\]</span></p>
+<ul>
+<li>m
+بزرگتر مساوی ۱ و کوچکتر از ۱۰ است.</li>
+<li>n
+عدد صحیح مثبت
+(به ازای تعداد اعشارهایی که به سمت چپ می‌رود)
+یا منفی
+(به تعداد اعشارهایی که به سمت راست می‌رود)
+است.</li>
+</ul>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-20" class="example"><strong>مثال 1.5  </strong></span>اعداد
+<span class="math inline">\(656800\)</span> و
+<span class="math inline">\(0.00006568\)</span>
+را با نماد علمی بنویسید.</p>
+<p><span class="math display">\[
+\begin{aligned}
+656800
+  &amp; = 6\overset{n=+5}{\overleftarrow{56800}}.0 \\
+  &amp; = \boxed{6.568 \times 10^{+5}} \\
+\end{aligned}
+\]</span></p>
+<p><span class="math display">\[
+\begin{aligned}
+0.00006568
+  &amp; = 0.\overset{n=-5}{\overrightarrow{00006}}568 \\
+  &amp; = \boxed{6.568 \times 10^{-5}}
+\end{aligned}
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-21" class="example"><strong>مثال 1.6  </strong></span>مقدار بار الکتریکی الکترون
+<span class="math inline">\(160 \times 10^{-15} \mu C\)</span>
+است.
+مقدار این بار را برحسب کولن و با نمادگذاری علمی بنویسید.
+(مثال متن کتاب تجربی-ریاضی)</p>
+<details>
+<summary>
+<strong>نمایش پاسخ</strong>
+</summary>
+<p><span class="math display">\[
+\require{cancel}
+\begin{aligned}
+160 \times 10^{-15} \mu C
+  &amp; = 160 \times 10^{-15} \mu C \times 1 \\
+  &amp; = 1.60 \times 10^{+2} \times 10^{-15}\times\cancel{\mu C}
+    \times \cfrac{10^{-6}C}{1\cancel{\mu C}} \\
+  &amp; = 1.6 \times 10^{2-15-6} \times C \\
+  &amp; = \boxed{1.6 \times 10^{-19} C}
+\end{aligned}
+\]</span></p>
+</details>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-22" class="remark"><em>نکته</em>. </span>یکای نجومی برابر میانگین فاصله زمین تا خورشید است
+<span class="math inline">\((1 AU = 1.5 \times 10^{11}m)\)</span>.</p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-23" class="remark"><em>نکته</em>. </span>مسافتی که که نور در مدت یک سال در خلا می‌پیماید یک سال نوری می‌نامند
+و آن را با نماد
+<span class="math inline">\(ly\)</span>
+نمایش می‌دهند.</p>
+<p><span class="math display">\[
+\require{cancel}
+\begin{aligned}
+1ly &amp; = 1 \overset{\overset{light}{\uparrow}}{l}
+  \times 1 \overset{\overset{year}{\uparrow}}{y}
+  \times \overset{\overset{day}{\uparrow}}{1}
+  \times \overset{\overset{hour}{\uparrow}}{1}
+  \times \overset{\overset{minute}{\uparrow}}{1}
+  \times \overset{\overset{second}{\uparrow}}{1} \\
+&amp; = \overset{light}{\overbrace{3 \times 10^{8} \cfrac{m}{\xcancel{s}}}}
+  {\scriptsize
+    \times 1 \;\cancel{y}\times \cfrac{365 \;\bcancel{d}}{1 \;\cancel{y}}
+    \times \cfrac{24 \; \cancel{h}}{1 \; \bcancel{d}}
+    \times \cfrac{60 \; \cancel{min}}{1 \; \cancel{h}}
+    \times \cfrac{60 \; \xcancel{s}}{1 \; \cancel{min}}
+  } \\
+  &amp; \cong 3 \times 10^{8} \times 3.15\times 10^{7} m \\
+  &amp; \cong 9.45 \times 10^{15} m \\
+  &amp; \cong 10 \times 10^{15} m \\
+  &amp; \cong 10^{16} m \Rightarrow \boxed{1ly \cong 10^{16} m}
+\end{aligned}
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-24" class="example"><strong>مثال 1.7  </strong></span>الف)
+فاصله زمین (منظومه شمسی) تا نزدیکترین ستاره بعد از خورشید،
+<span class="math inline">\((4 \times 10^{16} m)\)</span>
+بر حسب یکای نجومی چقدر است؟</p>
+<p>ب)
+اختروش‌ها
+دورترین اجرام شناخته شده از
+منظومه شمسی هستند و به عبارتی در دورترین محل قابل
+مشاهده کیهان قرار دارند. فاصله اختروش ها از منظومه شمسی
+<span class="math inline">\(1 \times 10^{26}\)</span>
+متر برآورد شده است. این فاصله را بر حسب سال نوری بیان کنید. تندی نور
+را در خلا
+<span class="math inline">\(3 \times 10^{7}\)</span>
+متر بر ثانیه بگیرید.</p>
+<details>
+<summary>
+<strong>نمایش پاسخ الف)</strong>
+</summary>
+<p><span class="math display">\[
+\require{cancel}
+\begin{aligned}
+4 \times 10^{16} m &amp;= 4 \times 10^{16} m \times 1\\
+&amp;= 4 \times 10^{16}\cancel{m}\times\cfrac{1AU}{1.5\times 10^{11}\cancel{m}}\\
+&amp;= \cfrac{4}{1.5} \times 10^{16 - 11} AU \\
+&amp;\cong \boxed{2.7 \times 10^{5} AU}
+\end{aligned}
+\]</span></p>
+</details>
+<details>
+<summary>
+<strong>نمایش پاسخ ب)</strong>
+</summary>
+<p><span class="math display">\[
+\require{cancel}
+\begin{aligned}
+1 \times 10^{26} m &amp;= 1 \times 10^{26}m \times 1\\
+&amp; = 10^{26} \cancel{m} \times \cfrac{1ly}{10^{16} \cancel{m}}\\
+&amp; = 10^{26 - 16} ly \\
+&amp; = \boxed{10^{10} ly}
+\end{aligned}
+\]</span></p>
+</details>
+</div>
+</div>
+<div id="خطا-و-دقت-اندازه-گیری" class="section level3 hasAnchor" number="1.3.6">
+<h3><span class="header-section-number">1.3.6</span> خطا و دقت اندازه گیری<a href="اندازه-گیری-و-کمیت-های-فیزیکی.html#خطا-و-دقت-اندازه-گیری" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="definition">
+<p><span id="def:unlabeled-div-25" class="definition"><strong>تعریف 1.10  </strong></span>عوامل موثر در افزایش دقت اندازه گیری:</p>
+<ol style="list-style-type: decimal">
+<li>دقت وسیله اندازه گیری</li>
+<li>مهارت شخص آزمایشگر</li>
+<li>تعداد دفعات اندازه گیری</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-21"></span>
+<img src="img/chap-1/phy-1-chap-1-fig-8-9.png" alt="
+الف) دقت ابزارهای اندازه گيری مدرج، برابر  کمینه درجه بندی آن ابزار است.
+ب) خطای مشاهده، ناشی از اختلاف منظر، در خواندن و گزارش نتیجه اندازه گیری است.
+پ) نتایج اندازه گیری شده حول اندازه واقعی و میانگین گیری از نتایج است.
+" width="100%" />
+<p class="caption">
+شکل 1.8: 
+الف) دقت ابزارهای اندازه گيری مدرج، برابر کمینه درجه بندی آن ابزار است.
+ب) خطای مشاهده، ناشی از اختلاف منظر، در خواندن و گزارش نتیجه اندازه گیری است.
+پ) نتایج اندازه گیری شده حول اندازه واقعی و میانگین گیری از نتایج است.
+</p>
+</div>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-26" class="definition"><strong>تعریف 1.11  </strong></span>تفاوت دقت و صحت</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-23"></span>
+<img src="img/chap-1/phy-1-chap-1-fig-precision-and-accuracy.png" alt="
+الف) با دقت و با صحت
+ب) با دقت و بدون صحت
+پ) بدون دقت و بدون صحت
+" width="100%" />
+<p class="caption">
+شکل 1.9: 
+الف) با دقت و با صحت
+ب) با دقت و بدون صحت
+پ) بدون دقت و بدون صحت
+</p>
+</div>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-27" class="definition"><strong>تعریف 1.12  </strong></span>تعداد ارقام بعد از اعشار معناداری دقت اندازه‌گیری را نشان می‌دهد.</p>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-28" class="remark"><em>نکته</em>. </span>هر اندازه گیری همراه با خطا است و
+دقت اندازه گیری در هربار اندازه‌گیری
+با توجه به ابزار اندازه گیری تعیین می شود.</p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-29" class="example"><strong>مثال 1.8  </strong></span>دقت اندازه‌گیری های زیر را مشخص کنید.</p>
+<p><span class="math display">\[
+2m, 2.0m, 2.00m, 2.000m, 0.048m, 3201g, 5.086 \times 10^{4}s
+\]</span></p>
+<details>
+<summary>
+<strong>نمایش پاسخ </strong>
+</summary>
+<span class="math display">\[
+\begin{aligned}
+  2 m &amp; \rightarrow 1 m \\
+  2.0 m &amp; \rightarrow 0.1 m = 1 dm \\
+  2.00 m &amp; \rightarrow 0.01 m = 1 cm \\
+  2.000 m &amp; \rightarrow 0.001 m = 1 mm \\
+  0.048 m &amp; \rightarrow 0.001 m = 1 mm \\
+  3201 g &amp; \rightarrow 1 g \\
+  5.086\times 10^{4}s &amp; \rightarrow 10^{-3} \times 10^{4}s =10s
+\end{aligned}
+\]</span>
+</details>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-30" class="definition"><strong>تعریف 1.13  </strong></span>کمترین تقسیم بندی برای محاسبه خطای اندازه‌گیری در ابزار مختلف:</p>
+<ul>
+<li><span class="math inline">\(\pm\frac{1}{2}\)</span>: وسایل درجه بندی</li>
+<li><span class="math inline">\(\pm1\)</span>: وسایل دیجیتالی</li>
+</ul>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-31" class="remark"><em>نکته</em>. </span>اگر در محاسبه خطا به کمترین تقسیم بندی به ارقام بامعنای بالاتر
+رسیدیم، آن را گرد می‌کنیم تا تعداد ارقام با معنا بیشتر نشود.</p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-32" class="example"><strong>مثال 1.9  </strong></span>یک خط کش که درجه‌بندی آن
+<span class="math inline">\(0.5cm\)</span>
+است طول یک جسم را
+<span class="math inline">\(3.7cm\)</span>
+نشان می‌دهد. چگونه این اندازه‌گیری گزارش می‌شود؟</p>
+<details>
+<summary>
+<strong>نمایش پاسخ </strong>
+</summary>
+<span class="math display">\[
+\begin{aligned}
+3.7 \pm \cfrac{0.5}{2} cm
+  &amp; = 3.\overset{\overset{0.1}{\uparrow}}{7} \pm
+      0.2\overset{\overset{0.01}{\uparrow}}{5} cm \\
+  &amp; = 3.7 \pm 0.3 cm
+\end{aligned}
+\]</span>
+</details>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-33" class="example"><strong>مثال 1.10  </strong></span>یک خط کش که درجه‌بندی آن
+<span class="math inline">\(1mm\)</span>
+است طول یک جسم را
+<span class="math inline">\(12.4mm\)</span>
+نشان می‌دهد. چگونه این اندازه‌گیری گزارش می‌شود؟</p>
+<details>
+<summary>
+<strong>نمایش پاسخ </strong>
+</summary>
+<span class="math display">\[
+\begin{aligned}
+12.4 \pm \cfrac{1}{2} mm
+  &amp; = 12.\overset{\overset{0.1}{\uparrow}}{4} \pm
+      0.\overset{\overset{0.1}{\uparrow}}{5} cm
+\end{aligned}
+\]</span>
+</details>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-34" class="definition"><strong>تعریف 1.14  </strong></span>تخمین مرتبه بزرگی:
+ابتدا هدد یا ارقام را به صورت نماد علمی می‌نویسیم عدد به دست آمده
+اگر بین ۱ تا ۵ باشد جایگزین آن عدد ۱ و اگر بین ۵ تا ۱۰ باشد جایگزین
+عدد ۱۰ را قرار می‌دهیم.</p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-35" class="example"><strong>مثال 1.11  </strong></span>مرتبه بزرگی اعداد زیر را مشخص کنید.</p>
+<p><span class="math display">\[ 0.000385, 0.0068, 54000 \]</span></p>
+<details>
+<summary>
+<strong>نمایش پاسخ </strong>
+</summary>
+<span class="math display">\[
+\begin{aligned}
+0.000385
+  &amp; = \overset{\overset{1&lt;&lt;5}{\uparrow}}{\cancelto{1}{3.85}}
+    \times 10^{-4} \\
+  &amp; \cong 10^{-4} \\
+0.0068
+  &amp; = \overset{\overset{5&lt;&lt;10}{\uparrow}}{\cancelto{10}{6.8}}
+    \times 10^{-3} \\
+  &amp; \cong 10^{-2} \\
+54000
+  &amp; = \overset{\overset{5&lt;&lt;10}{\uparrow}}{\cancelto{10}{5.4}}
+    \times 10^{4} \\
+  &amp; \cong 10^{5}
+\end{aligned}
+\]</span>
+</details>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-36" class="example"><strong>مثال 1.12  </strong></span>بوسیله یک ریزسنج ضخامت یک جسم اندازه‌گیری شد.
+دقت این ریز سنچ
+<span class="math inline">\(0.001mm\)</span> است. اگر استوانه مدرج ثابت عدد
+<span class="math inline">\(2.5mm\)</span> را نشان دهد و عدد استوانه متحرک عدد
+<span class="math inline">\(35\)</span> را نشان دهد. عدد گزارش شده باید چگونه نوشته شود؟</p>
+<details>
+<summary>
+<strong>نمایش پاسخ </strong>
+</summary>
+<p>چون دقت ریز سنج درحد یک میکرومتر است پس عدد استوانه متحرک
+<span class="math inline">\(0.035mm\)</span> است.</p>
+<span class="math display">\[
+\begin{aligned}
+2.5 mm + 0.035 mm + \frac{0.001mm}{2} = 2.535 \pm 0.0005 mm
+\end{aligned}
+\]</span>
+</details>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-37" class="example"><strong>مثال 1.13  </strong></span>یک دما سنج رقمی دمای محیط را مطابق شکل نشان می‌دهد.
+عدد گزارش شده را چگونه بنویسیم؟</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-24"></span>
+<img src="img/chap-1/phy-1-chap-fig-temperture-2576.png" alt="
+الف) با دقت و با صحت
+ب) با دقت و بدون صحت
+پ) بدون دقت و بدون صحت
+" width="50%" />
+<p class="caption">
+شکل 1.10: 
+الف) با دقت و با صحت
+ب) با دقت و بدون صحت
+پ) بدون دقت و بدون صحت
+</p>
+</div>
+<details>
+<summary>
+<strong>نمایش پاسخ </strong>
+</summary>
+<p><span class="math display">\[
+25.76\pm1^{\circ}C
+\]</span></p>
+</details>
+</div>
 </div>
 </div>
             </section>
@@ -213,7 +1364,7 @@ div.csl-indent {
         </div>
       </div>
 <a href="مدل-سازی-در-فیزیک.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="اندازه-گیری-و-دستگاه-بین-المللی-یکاها.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="چگالی.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -261,7 +1412,7 @@ gitbook.start({
 "options": null
 },
 "toc": {
-"collapse": "section"
+"collapse": "subsection"
 },
 "info": false
 });
